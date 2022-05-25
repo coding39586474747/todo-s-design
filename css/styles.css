@@ -1,0 +1,66 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+main {
+  /* Center the content into the middle of the page */
+  width: 700px;
+  margin: 64px auto;
+  background-color: #fff;
+  padding: 50px;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* background-color: #222; */
+}
+
+.todo-list-item {
+  background-color: #f4f4f4;
+  margin: 25px 0;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background-blend-mode: none;
+  border-radius: 7px;
+  padding: 5px;
+  width: 50px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+button:first-child {
+  margin-left: 10px;
+}
+
+.edit {
+  background-color: rgb(255, 200, 98);
+}
+
+.edit:hover {
+  background-color: rgb(252, 183, 55);
+}
+
+.delete {
+  background-color: rgb(255, 104, 104);
+}
+
+.delete:hover {
+  background-color: rgb(255, 73, 73);
+  color: #fff;
+}
