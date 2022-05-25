@@ -37,8 +37,7 @@ ol {
 
 button {
   border: none;
-  background-blend-mode: none;
-  border-radius: px;
+  background: none;
   padding: 10px;
   cursor: pointer;
   margin: 0 5px;
