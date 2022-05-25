@@ -32,20 +32,16 @@ ol {
   padding: 10px 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 button {
   border: none;
   background-blend-mode: none;
-  border-radius: 7px;
-  padding: 5px;
-  width: 50px;
+  border-radius: px;
+  padding: 10px;
   cursor: pointer;
   margin: 0 5px;
-}
-
-button:first-child {
-  margin-left: 10px;
 }
 
 .edit {
