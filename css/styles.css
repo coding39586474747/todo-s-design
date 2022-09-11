@@ -14,9 +14,10 @@ main {
 }
 
 h1 {
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 52px;
   text-transform: uppercase;
+  display: flex;
 }
 
 ol {
@@ -24,6 +25,12 @@ ol {
   padding: 0;
   list-style: none;
   /* background-color: #222; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .todo-list-item {
@@ -52,10 +59,19 @@ button {
 }
 
 .delete {
-  background-color: rgb(255, 104, 104);
+  background-color: rgb(255, 4, 104);
 }
 
 .delete:hover {
   background-color: rgb(255, 73, 73);
+  color: #fff;
+}
+
+.add-btn {
+  background-color: rgb(46, 204, 113);
+}
+
+.add-btn:hover {
+  background-color: rgb(39, 174, 96);
   color: #fff;
 }
